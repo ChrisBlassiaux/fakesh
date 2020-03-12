@@ -239,3 +239,24 @@
     }
 
 }
+
+/* covid */
+.covid-around {
+    width: 100%;
+    text-align: center;
+}
+
+.covid {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.covid:hover {
+    text-decoration: underline;
+}
+
+.covid:visited {
+    color: #609;
+}
+
+
