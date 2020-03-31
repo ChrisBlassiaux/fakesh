@@ -1,67 +1,77 @@
 <!DOCTYPE html>
-    <html lang="fr">
+<html lang="fr">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <title>FakeSh</title>
-        <link rel="stylesheet" href="style.css">
+        
+
+        <!-- FONTS -->
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+
+        <!-- ICON -->
         <link rel="shortcut icon" href="img/icon-fakesh.png" type="image/png"/>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-
-        <div class="personal-navbar">
+        <nav class="personal-navbar">
             <a href="#" class="gmail">Gmail</a>
             <a href="#">Images</a>
             <img src="img/functions_google.PNG" alt="" class="functions-google">
             <img src="img/account-online.png" alt="" class="account-online">
-        </div>
-        <div class="main">
-            <div class="logo-content">
-                <img src="img/logo-fakesh.png" alt="" class="logo-google">
-                
-            </div>
-
-            <div class="around-search">
-                <a href="#">
-                    <img src="img/magnifyingglass.PNG" alt="" class="before-search">
-                </a>
-
-                <input type="text" id="search">
-
-                <a href="#" desc="a">
-                    <img src="img/vocal_search-fakesh.PNG" alt="" class="after-search" title="Utiliser la recherche vocale">
-                </a>
-            </div>
-            <div class="buttons">
-                <input class="button1" type="submit" value="Recherche FakeSh">
-                <input class="button2" type="submit" value="J'ai de la chance">
-            </div>
-
-            <div class="covid-around"> 
-                <a href="#" class="covid">Coronavirus : en savoir plus sur les actions mises en place par FakeSh</a>
-            </div>
+        </nav>
+        <div class="container">
+            <main class="main">
+                <div class="logo-content">
+                    <img src="img/logo-fakesh.png" alt="" class="logo">
+                    
+                </div>
+    
+                <div class="around-search">
+                    <a href="#">
+                        <img src="img/magnifyingglass.PNG" alt="" class="before-search">
+                    </a>
+    
+                    <input type="text" class="search">
+    
+                    <a href="#" desc="a">
+                        <img src="img/vocal_search-fakesh.PNG" alt="" class="after-search" title="Utiliser la recherche vocale">
+                    </a>
+                </div>
+                <div class="buttons">
+                    <input class="button1" type="submit" value="Recherche FakeSh">
+                    <input class="button2" type="submit" value="J'ai de la chance">
+                </div>
+    
+                <div class="covid-around"> 
+                    <img src="img/five.gif" alt="" height="45">
+                    <a href="#" class="covid"> 5 GESTES "BARRIÈRE" pour freiner le coronavirus</a>
+                </div>
+            </main>
         </div>
         
-        <div class="footer">
+        <footer class="footer">
             <div class="pays">
                 France
             </div>
             <div class="row">
-                <div class="row1">
+                <nav class="row1">
                     <a href="#">Publication judiciaire</a>
                     <a href="#">Info consommateurs</a>
                     <a href="#">Confidentialité</a>
                     <a href="#">Conditions</a>
                     <a href="#">Paramètres</a>
-                </div>
-                <div class="row2">
+                </nav>
+                <nav class="row2">
                     <a href="#">Publicité</a>
                     <a href="#">Entreprise</a>
                     <a href="#">À propos</a>
                     <a href="#">Comment fonctionne la recherche FakeSh ?</a>
-                </div>
+                </nav>
             </div>
-        </div>
+        </footer>
     </body>
 </html>
