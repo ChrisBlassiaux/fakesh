@@ -38,6 +38,7 @@ body {
 
 .personal-navbar a:hover{
     text-decoration: underline;
+    color: rgba(0, 0, 0, 0.692);
 }
 
 .account-online {
@@ -120,6 +121,10 @@ body {
     flex: 1;
 
     border: none;
+}
+
+.search:focus{
+    outline: none;
 }
 
 .around-search:hover{
