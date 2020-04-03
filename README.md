@@ -1,5 +1,6 @@
 # FakeSh
 
+→ Une page fake d'un moteur de recherche similaire à Google.fr.
 
 ## Auteur(s) : 
 
@@ -9,10 +10,6 @@ Chris Blassiaux →
 - https://www.linkedin.com/in/christopher-blassiaux-802891198/ 
 - chrisblassiaux@gmail.com
 - Instagram : chris.blassiaux 
-
-## Qu'est-ce que c'est ?
-
-→ Ce projet est une page fake d'un moteur de recherche similaire à Google.fr.
 
 ## Quand ? Où ? Circonstances ?
 
